@@ -3,8 +3,8 @@ import Head from "next/head"
 const Homepage = ()=>{
     return (         <div> 
     <Head>
-            <title>React MeetUps</title>
-            <meta name="description" content="Browse a huge list of highly active React meetups" />
+            <title>React TEK ARBAB </title>
+            <meta name="description" content="REACT TEK ARBAB " />
         </Head>
     
     <Link href="/news/lola">Lola</Link></div>)
