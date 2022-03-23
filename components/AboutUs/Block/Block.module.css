@@ -16,7 +16,7 @@
 .heading,.description{
     text-align: center;
 }
-.heading h1{
+.heading h2{
     font-weight: bolder;
     color: rgb(245, 232, 208);
 }
