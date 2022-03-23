@@ -79,4 +79,23 @@ font-family: 'Ubuntu', sans-serif ;
     /* margin-top: 1.2rem; */
     /* border: 2px solid green; */
   }
- 
+  @media only screen and (max-width: 998px) {
+    .section1  h3{
+       font-size: 2.2rem;
+   }
+  }
+  @media only screen and (max-width: 767px) {
+    .section1    h3{
+        font-size: 2rem;
+    }
+   }
+   @media only screen and (max-width: 576px) {
+    .section1  h3{
+        font-size: 1.87rem;
+    }
+   }
+   @media only screen and (max-width: 467px) {
+    .section1  h3{
+        font-size: 1.65rem;
+    }
+   }
