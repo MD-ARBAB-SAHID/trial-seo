@@ -4,7 +4,7 @@ const Section2 = ()=>{
 return(
 	<div className={Styles.section2}>
 	<div className={Styles.heading}>
-		<h1>Our Clients</h1>
+		<h2>Our Clients</h2>
 	</div>
     <div className={Styles.slider}>
 	<div className={Styles["slide-track"]}>

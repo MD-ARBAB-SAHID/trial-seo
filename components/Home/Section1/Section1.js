@@ -45,7 +45,7 @@ const services = [
 const Section1  = ()=>{
 
     return (<div className={Styles["section1"]}>
-   <h1 >Services We Provide ?</h1>
+   <h2 >Services We Provide ?</h2>
     <div className="row">
   {  services.map((service,index)=>{
         return(
