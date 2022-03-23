@@ -6,7 +6,8 @@ const services = [
         title:"Data Acceleration Framework",
         imageUrl:"https://tekmentors.s3.ap-south-1.amazonaws.com/services/data.jpg",
         description:"The Digital Acceleration framework supports the digital path that an organization undertakes.This framework consists of User Experience, Automation, Cloud Computing,Security etc. as the key pillars using which an organization builds its Digital journey.  ",
-        col:"col-lg-4 col-md-6 col-sm-12 "
+        col:"col-lg-4 col-md-6 col-sm-12 ",
+       
     },
     {
         title:" Architecture and Design",
@@ -45,7 +46,7 @@ const services = [
 const Section1  = ()=>{
 
     return (<div className={Styles["section1"]}>
-   <h2 >Services We Provide ?</h2>
+   <h3 >Services We Provide ?</h3>
     <div className="row">
   {  services.map((service,index)=>{
         return(

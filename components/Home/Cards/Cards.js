@@ -6,7 +6,7 @@ const Cards = (props)=>{
     return (
       <div className="col-lg-4 col-md-6 col-sm-12 " style={{marginBottom:"20px"}}> 
   <div className={`card ${Styles["card-height"]}`} >
-  <img className={`${Styles["card-img-top"]} ${exClass && Styles["img-border-bottom"]}`} src={imgUrl} alt="img" />
+  <img className={`${Styles["card-img-top"]} ${exClass && Styles["img-border-bottom"]}`} src={imgUrl} alt={props.title} />
   <div className="card-body">
     <h5 className={`card-title ${Styles["card-heading"]}`}>{title}</h5>
     <p className={`card-text ${Styles.desc}`}>{description}</p>
