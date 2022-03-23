@@ -1,0 +1,31 @@
+.img-section{
+    margin: 30px 0;
+    text-align: center;
+    font-size: 16px;
+   
+}
+.img-section img{
+    height: 23em;
+    width: 31em;
+
+}
+@media only screen and (max-width: 998px) {
+    .img-section{
+        font-size: 14px;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    .img-section{
+        font-size: 12px;
+    }
+  }
+  @media only screen and (max-width: 567px) {
+    .img-section{
+        font-size: 10px;
+    }
+  }
+  @media only screen and (max-width: 360px) {
+    .img-section{
+        font-size: 9px;
+    }
+  }

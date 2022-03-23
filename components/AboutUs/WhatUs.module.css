@@ -1,0 +1,124 @@
+@keyframes mainpage{
+    from{
+      opacity: 0;
+    }
+    to{
+      opacity: 1;
+    }
+  }
+.what-us{
+
+
+    margin:0 0 6% 0% ;
+    font-family: 'Ubuntu', sans-serif ;
+    animation: mainpage .4s ease-in-out .2s both;
+      /* background: rgb(0, 224, 206); */
+      background: -moz-linear-gradient(left, rgba(0, 224, 206, 1) 0%, rgba(41, 137, 216, 1) 85%, rgba(41, 137, 216, 1) 100%, rgba(0, 172, 201, 1) 100%, rgba(41, 137, 216, 1) 100%, rgba(41, 137, 216, 1) 100%);
+      /* background: -webkit-linear-gradient(left, rgba(0, 224, 206, 1) 0%, rgba(41, 137, 216, 1) 85%, rgba(41, 137, 216, 1) 100%, rgba(0, 172, 201, 1) 100%, rgba(41, 137, 216, 1) 100%, rgba(41, 137, 216, 1) 100%); */
+      background: linear-gradient(to right, rgba(0, 224, 206, 1) 0%, rgba(41, 137, 216, 1) 85%, rgba(41, 137, 216, 1) 100%, rgba(0, 172, 201, 1) 100%, rgba(41, 137, 216, 1) 100%, rgba(41, 137, 216, 1) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00e0ce', endColorstr='#2989d8', GradientType=1);
+      overflow: hidden;
+  
+ 
+    
+    
+}
+.what-us .img-section{
+    padding: 0;
+}
+.what-us .img-section img {
+
+    width: 100%;
+    height: 100%;
+   /* padding: 2% 3%; */
+   
+    
+}
+ .content{
+        margin: auto 0;
+       
+        font-size: 16px;
+        padding: 2% 3%;
+        
+   
+}
+ .content h3{
+   font-size: 2em;
+   font-weight: 900;
+   color: rgb(61,167,220);
+ color: white;
+   animation: mainpage .4s ease-in-out .6s both;
+}
+ .content p{
+    font-size: 1.25em;
+    word-spacing: 2px;
+ 
+    margin: 2px 0;
+   font-weight: 900;
+    color: black;
+    animation: mainpage .4s ease-in-out 1s both;
+}
+.content span{
+    font-size: 1.1em;
+ 
+    color: black;
+  
+    line-height: 1.7;
+    word-spacing: 3px;
+    animation: mainpage .4s ease-in-out 1s both;
+}
+.img-section img{
+  animation: mainpage .4s ease-in-out .6s both;
+}
+@media only screen  and (min-width:1000px) and (max-width: 1150px)
+{
+
+  .content{
+      font-size: 15px;
+  }
+ 
+
+
+}
+@media only screen and (min-width:900px) and (max-width: 999px)
+{
+
+  .content{
+      font-size: 14px;
+     
+  }
+ 
+
+
+}
+@media only screen  and (min-width:769px) and (max-width: 968px)
+{
+
+  .content{
+      font-size: 12.8px;
+    
+  }
+ 
+
+
+}
+
+@media only screen  and (max-width:998px)
+{
+    .what-us{
+        margin-bottom: 12%;
+    }
+  
+   
+}
+@media only screen  and (max-width:767px)
+{
+    .what-us{
+        margin-bottom: 15%;
+    }
+    .content{
+        font-size: 14px;
+        padding: 7% 4.5%;
+    }
+}
+

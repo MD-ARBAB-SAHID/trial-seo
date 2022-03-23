@@ -1,21 +1,73 @@
-html,
-body {
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400&display=swap');
+
+
+*{
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
   box-sizing: border-box;
+
 }
+
 canvas+div{
-  width: 0% !important;
-  height: 0% !important;
-  display: none !important;
+width: 0% !important;
+height: 0% !important;
+display: none !important;
+}
+
+
+#loader{
+  
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  z-index: 9999999999999999;
+
+
+}
+.disp-none{
+  display: none;
+}
+@keyframes load{
+  0%{
+
+    opacity: 0;
+
+    transform: translateX(40px);
+     
   }
+  50%{
+      transform: translateX(-30px);
+
+
+    opacity: 1;
+  }
+  100%{
+      transform: translateX(40px);
+      
+      opacity: 0;
+     
+  
+  }
+
+}
+
+     
+ 
+.loader{
+
+
+  position: absolute;
+  top: 42%;
+  left: 44%;
+  transform: translate(-50%, -50%);
+  width: 155px;
+  height: 10px;
+  z-index: 99999;
+  border-radius: 5px;
+  animation: load 1.8s ease-in-out ;
+}
+.loader img{
+  width: 100%;
+  
+}

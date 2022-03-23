@@ -1,0 +1,48 @@
+
+.outer{
+
+    padding: 2rem 0;
+    border: none;
+    background-color: rgb(61,167,220);
+  
+
+
+}
+.terms-and-use{
+    width: 80%;
+    padding: 2% 3%;
+    margin: auto;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    background-color: white;
+    position: relative;
+ 
+}
+.terms-and-use h1{
+    margin-bottom: 20px;
+ 
+}
+.terms-and-use h3{
+    border-bottom:2px solid black ;
+    padding-bottom: 13px;
+    margin-bottom: 20px;
+}
+.terms-and-use p{
+    line-height: 2;
+    margin-bottom: 14px;
+}
+@media only screen and (max-width: 998px) {
+    .terms-and-use{
+        width: 85%;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    .terms-and-use{
+        width: 90%;
+    }
+  }
+  @media only screen and (max-width: 567px) {
+    .terms-and-use{
+        width: 93%;
+    }
+  }

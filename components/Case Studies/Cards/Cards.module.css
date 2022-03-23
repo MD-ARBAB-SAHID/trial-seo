@@ -1,0 +1,45 @@
+
+.card-img-top{
+    width: 100%;
+    height: 290px;
+}
+
+.card-height{
+    min-height: 500px;
+    
+ 
+}
+.card-heading{
+  
+    color: rgb(9, 106, 155);
+    line-height: 1.3;
+
+  }
+  .button{
+    margin-top: 10px;
+  }
+@media only screen and (max-width: 768px) {
+    .card-img-top{
+        width: 100%;
+        height: 75%;
+    }
+  .card-height{
+
+     min-height: 100%;
+  
+     
+   
+  }
+}
+
+.card-heading{
+  
+    color: rgb(61,167,220);
+  }
+.desc{
+  line-height: 1.6;
+}
+  .middle{
+     margin: auto;
+    
+  }

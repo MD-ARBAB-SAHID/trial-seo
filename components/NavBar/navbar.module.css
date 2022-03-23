@@ -1,0 +1,116 @@
+
+ .nav-link{
+ 
+    font-weight: bolder;
+    color: rgb(122,239,125);
+    position: relative;
+   padding: 0.5rem 0;
+   font-size: 1.3rem;
+   text-decoration: none;
+    
+   
+}
+ .nav-link:after{
+ 
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(61,167,220);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+    
+   
+}
+ .nav-link:hover:after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+
+}
+ .nav-link:hover{
+    color: rgb(61,167,220);
+    transition: color 0.25s ease-out;
+ 
+}
+.active{
+    color: rgb(61,167,220) !important;
+   
+}
+
+.navbar-brand a{
+    font-size: 1.65rem;
+    color:white;
+    font-weight: bolder;
+    text-decoration: none;
+ 
+
+}
+.navbar-brand a:hover{
+  
+    color:rgb(61,167,220);
+
+}
+
+
+
+
+
+.navbar{
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif ;
+   margin: 0;
+ 
+    
+}
+
+
+.logo{
+    padding: 4px 6px;
+      height: 75px;
+      width: 100px; 
+
+}
+
+@media only screen and (min-width: 991px) {
+   .nav-link {
+     
+        padding:  0 2px;
+        margin: 8px 22px;
+ 
+    }
+  }
+
+  @media only screen and (max-width: 998px) {
+    .nav-link {
+      
+     font-size: 1.2rem;
+     padding: 7.5px 6px; 
+
+
+     }
+     .navbar-brand a{
+         font-size: 1.5rem;
+     }
+   }
+   @media only screen and (max-width: 767px) {
+    .nav-link {
+      
+     font-size: 1.2rem;
+padding: 7px 6px;
+  
+     }
+     .navbar-brand a{
+        font-size: 1.45rem;
+    }
+   }
+   @media only screen and (max-width: 567px) {
+   
+     .navbar-brand a{
+        font-size: 1.4rem;
+     
+    }
+   }
+ 

@@ -1,0 +1,25 @@
+.block{
+
+
+
+  
+   
+        /* background: rgb(0, 224, 206); */
+        background: -moz-linear-gradient(left, rgba(0, 224, 206, 1) 0%, rgba(41, 137, 216, 1) 85%, rgba(41, 137, 216, 1) 100%, rgba(0, 172, 201, 1) 100%, rgba(41, 137, 216, 1) 100%, rgba(41, 137, 216, 1) 100%);
+        /* background: -webkit-linear-gradient(left, rgba(0, 224, 206, 1) 0%, rgba(41, 137, 216, 1) 85%, rgba(41, 137, 216, 1) 100%, rgba(0, 172, 201, 1) 100%, rgba(41, 137, 216, 1) 100%, rgba(41, 137, 216, 1) 100%); */
+        background: linear-gradient(to right, rgba(0, 224, 206, 1) 0%, rgba(41, 137, 216, 1) 85%, rgba(41, 137, 216, 1) 100%, rgba(0, 172, 201, 1) 100%, rgba(41, 137, 216, 1) 100%, rgba(41, 137, 216, 1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00e0ce', endColorstr='#2989d8', GradientType=1);
+        overflow: hidden;
+        font-family: 'Ubuntu', sans-serif ;
+  
+}
+.heading,.description{
+    text-align: center;
+}
+.heading h1{
+    font-weight: bolder;
+    color: rgb(245, 232, 208);
+}
+
+
+

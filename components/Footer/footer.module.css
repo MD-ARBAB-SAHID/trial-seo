@@ -1,0 +1,23 @@
+.footer {
+  background: black;
+  position: relative;
+  bottom: 0px;
+  font-family: 'Ubuntu', sans-serif ;
+}
+.footer-link {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.footer-link:hover, .footer-link:focus {
+  text-decoration: none;
+  color: white;
+}
+.icon-font{
+  font-size: 18px;
+}
+
+
+

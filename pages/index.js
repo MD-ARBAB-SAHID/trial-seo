@@ -1,22 +1,22 @@
-import Link from "next/link"
-import Head from "next/head"
-import PdfViewer from "../components/PdfViewer";
-import OuterCard from "../components/OuterCard"
-const Homepage = ()=>{
-    return (         <div> 
-    <Head>
-            <title>React TEK ARBAB </title>
-            <meta name="description" content="REACT TEK ARBAB " />
-     
-        </Head>
-        <OuterCard>
-           
-        
-          <PdfViewer pdf={"./RBS.pdf"} pages={2} />
-        
-      </OuterCard>
+import Slider from "../components/Home/Slider/Slider";
+import Section1 from "../components/Home/Section1/Section1";
+import Section2 from "../components/Home/Section2/Section2";
+import Loader from "../components/UI/Loader/Loader";
+import Head from "next/head";
 
-    </div>)
+export default function Home() {
+  return (
+    <>
+      <Head>
+        <title>TEKMentors | Home</title>
+        <meta name="description" content="TEKMentors is a technology consulting and training organization operating within the areas of Engineering excellence, DevOps and Automation, Agile and Quality Engineering. " />
+        <meta name="keywords" content="Technology, Consulting , Training , Engineering , DevOps , Automation , Agile ,Digital,World" />
+      </Head>
+      <Loader />
+      <Slider />
+    
+      <Section1 />
+      <Section2 />
+    </>
+  )
 }
-
-export default Homepage;

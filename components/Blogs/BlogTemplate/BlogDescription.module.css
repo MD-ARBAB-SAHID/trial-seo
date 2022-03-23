@@ -1,0 +1,25 @@
+.description{
+    font-size: 16px;
+
+    
+}
+.description p{
+    font-size: 1.3em;
+    line-height: 2;
+    margin-bottom: 6px;
+}
+@media only screen and (max-width: 998px) {
+    .description{
+        font-size: 15px;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    .description{
+        font-size: 14px;
+    }
+  }
+  @media only screen and (max-width: 567px) {
+    .description{
+        font-size: 13px;
+    }
+  }

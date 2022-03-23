@@ -1,0 +1,65 @@
+.sec1{
+    background-color: #1f4a6f;
+     margin-bottom: 1%;
+     font-family: 'Ubuntu', sans-serif ;
+ }
+ .header{
+     font-size: 16px;
+     width: 100%;
+
+   
+     margin: auto;
+     padding: 3.5% 2%;
+     color: white;
+    
+     /* border: 2px solid red; */
+
+ }
+ .header h3,.header h1{
+ 
+     text-align: center;
+     font-weight: bolder;
+ }
+ .header h3{
+     margin: 20px;
+     font-size: 2em;
+ }
+ .header h1{
+     font-size: 3em;
+     line-height: 1.7;
+ }
+ .arr{
+     text-align: center;
+ }
+ .header a{
+    
+     background: transparent;
+     border: none;
+     color: white;
+     font-size: 40px;
+     text-align: center;
+     display: inline-block;
+  text-decoration: none;
+ 
+ 
+ }
+ .header a:hover{
+     transition: all 0.3s ease-in-out;
+     color: black;
+     transform: translateY(10px) scale(1.3);
+ }
+ @media only screen and (max-width: 998px) {
+    .header{
+        font-size: 14px;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    .header{
+        font-size: 12.5px;
+    }
+  }
+  @media only screen and (max-width: 567px) {
+    .header{
+        font-size: 10px;
+    }
+  }

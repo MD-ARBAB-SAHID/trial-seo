@@ -1,0 +1,65 @@
+.blog-card{
+border-bottom: 1px solid #767879;
+width: 50%;
+margin:3% auto ;
+padding: 10px 20px 10px 0;
+font-size: 16px;
+
+
+}
+.blog-card-heading,.blog-card-description{
+    margin: 4px 2px 12px;
+
+}
+.blog-card-writter{
+    margin: 4px 2px 8px;
+}
+.blog-card-heading h3{
+    font-size: 2.1em;
+    font-weight: 900;
+    line-height: 1.3;
+}
+.blog-card-description h4{
+    font-size: 1.6em;
+  
+    line-height: 1.3;
+}
+
+.blog-card-writter p{
+    font-size: 1.3em;
+    
+   color: #767879;
+    line-height: 1.3;
+    font-weight: lighter;
+    margin-bottom: 0;
+}
+.blog-card-writter p span{
+    font-weight: bolder;
+    font-size: 1em;
+    font-style: italic;
+    line-height: 1.3;
+    color: black;
+}
+
+.button{
+    margin-bottom: 12px;
+}
+
+@media only screen and (max-width: 998px) {
+    .blog-card{
+        font-size: 15px;
+        width: 70%;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .blog-card{
+        font-size: 14px;
+        width: 80%;
+    }
+  }
+  @media only screen and (max-width: 576px) {
+    .blog-card{
+        font-size: 13px;
+        width: 87%;
+    }
+  }

@@ -1,0 +1,34 @@
+.content {
+font-size: 16px;
+
+margin-bottom: 28px;
+}
+.content h3{
+    color: #1f4a6f;
+    font-size: 2em;
+}
+.content p{
+    font-size: 1.3em;
+    line-height: 2;
+    margin-bottom: 6px;
+}
+.content li{
+    margin: 0 1.8rem;
+    /* border: 2px solid red; */
+}
+
+@media only screen and (max-width: 998px) {
+    .content{
+        font-size: 15px;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    .content{
+        font-size: 14px;
+    }
+  }
+  @media only screen and (max-width: 567px) {
+    .content{
+        font-size: 13px;
+    }
+  }
