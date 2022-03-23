@@ -19,7 +19,7 @@ const Blog1=()=>{
                 <p>The current Covid-19 crisis has provided a view into the future world. A world that will be primarily driven by digital technologies. Digital will be central to every interaction, either within the organizational domain, or while delivering value to the customer.</p>
                 <p>Organizations will have to align to this new reality overnight. Digital channels will become the primary way to interact and collaborate with other businesses, they will drive the customer engagement models and will play a pivotal role in defining the Value Proposition for customers. Most of the supply chains will be transformed using digital technologies. Customer behaviors will be significantly impacted by the digital experience and organizations will find new ways to working to respond to these changes.</p>
                 </BlogDescription>
-                <BlogImage src="https://tekmentors.s3.ap-south-1.amazonaws.com/blogs/Digital_Acceleration.jpg"/>
+                <BlogImage src="https://tekmentors.s3.ap-south-1.amazonaws.com/blogs/Digital_Acceleration.jpg" alt="Accelerating the Digital journey from the Old to the New Economy in the post Covid era"/>
                 <div >
                     <BlogContent>
                         <h3>How will the Old Economy companies respond to these changes?</h3>

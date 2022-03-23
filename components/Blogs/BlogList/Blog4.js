@@ -15,7 +15,7 @@ const Blog3 = () => {
         
         </BlogDescription>
         <div >
-            <BlogImage src="https://tekmentors.s3.ap-south-1.amazonaws.com/blogs/teamwork.jpg" />
+            <BlogImage src="https://tekmentors.s3.ap-south-1.amazonaws.com/blogs/teamwork.jpg" alt="Building Value Delivery Teams"/>
         
            <BlogContent >
            <h3>1. Ensure there is team alignment to business goals</h3>

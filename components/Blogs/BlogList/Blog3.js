@@ -34,7 +34,7 @@ const Blog3 = () => {
           </p>
         </BlogDescription>
         <div >
-            <BlogImage src="https://tekmentors.s3.ap-south-1.amazonaws.com/blogs/Industry_4.jpg" />
+            <BlogImage src="https://tekmentors.s3.ap-south-1.amazonaws.com/blogs/Industry_4.jpg" alt="Operating Model in Industrial Age 4.0"/>
         
            <BlogContent >
            <h3>How will the digital ecosystems operate in Industry 4.0?</h3>

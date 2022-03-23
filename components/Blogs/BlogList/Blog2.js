@@ -23,7 +23,7 @@ return(
             <p>What are the fundamental elements of the transformation that the organizations need to focus on to compete with the Digital Masters and the Global Platform players?</p>
             <p>What are the building blocks that they need to focus on for offering a Digital Value proposition to their customer?</p>
         </BlogDescription>
-        <BlogImage src="https://tekmentors.s3.ap-south-1.amazonaws.com/blogs/Digital_Transformation.jpg"/>
+        <BlogImage src="https://tekmentors.s3.ap-south-1.amazonaws.com/blogs/Digital_Transformation.jpg" alt="From surviving to thriving in a Digitally Powered World - the Old Economy Way"/>
         <div>
         <BlogContent>
             <h3>So how do these not born Digital organizations get themselves ready for a digital world?</h3>
