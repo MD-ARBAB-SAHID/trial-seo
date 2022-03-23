@@ -1,0 +1,42 @@
+.pdf-view{
+    width: 100%;
+
+
+}
+.pdf-view p{
+    text-align: center;
+}
+.pages canvas{
+    padding: 0;
+}
+
+
+@media only screen and (min-width: 300px) and (max-width:767px){
+    .pages canvas{
+        width: 100% !important;
+    }
+  }
+
+  .actions{
+      position: relative;
+  
+  }
+  .previous{
+      position: absolute;
+      left: 0px;
+   
+  }
+  .next{
+      position: absolute;
+      right: 0px;
+  }
+  .actions button{
+    width: 80px;
+    padding: 4px 2px;
+    border-radius: 5px;
+    border: 3px solid rgb(50, 71, 90);
+    margin: -3px 1rem;
+    background-color: rgb(50, 71, 90);
+    color: whitesmoke;
+    cursor: pointer;
+  }
