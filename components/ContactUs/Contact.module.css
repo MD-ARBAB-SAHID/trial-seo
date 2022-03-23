@@ -12,6 +12,9 @@
 
   
 }
+.heading{
+  font-size: 24px;
+}
 .bg-image{
     background-image:url("https://tekmentors.s3.ap-south-1.amazonaws.com/Contact+Us/1-2.jpg")
 }
@@ -87,4 +90,35 @@
   background: -webkit-linear-gradient(left, #ff6a5b 0%, #ff4d7e 100%);
   background: -o-linear-gradient(left, #ff6a5b 0%, #ff4d7e 100%);
   background: linear-gradient(to right, #ff6a5b 0%, #ff4d7e 100%);
+}
+
+@media only screen and (max-width: 998px) {
+   
+  .heading{
+    font-size: 23.35px;
+  }
+}
+@media only screen and (max-width: 998px) {
+   
+  .heading{
+    font-size: 23.38px;
+  }
+}
+@media only screen and (max-width: 767px) {
+   
+  .heading{
+    font-size: 22.6px;
+  }
+}
+@media only screen and (max-width: 567px) {
+   
+  .heading{
+    font-size: 22px;
+  }
+}
+@media only screen and (max-width: 467px) {
+   
+  .heading{
+    font-size: 21.5px;
+  }
 }

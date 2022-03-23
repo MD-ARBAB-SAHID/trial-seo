@@ -11,7 +11,7 @@ const SectionCard = (props)=>{
         <img className={Styles["card-img-top"]} src={imgUrl} alt="img" />
         <div className="card-body">
           <h5 className={`card-title ${Styles["card-heading"]}`}>{title}</h5>
-          <h5 className={Styles["sub-heading"]}>We Support : </h5>
+          <h6 className={Styles["sub-heading"]}>We Support : </h6>
           {description.map((desc,index)=>{
             return(<p key={index} className={`card-text ${Styles["m-t"]}` } ><li>{desc}</li></p>)
           })}

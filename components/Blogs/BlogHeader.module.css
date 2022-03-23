@@ -12,13 +12,15 @@
     font-size: 16px;
    
 }
-.content h3{
+.content h1{
     font-size: 3em;
     padding: 10px 20px;
     margin: 5px;
     color: white;
 }
-.content h5{
+
+
+.content h3{
     color: white;
     padding: 5px 20px;
     font-size: 2em;
@@ -32,6 +34,7 @@
     font-size: 56px;
     display: inline-block;
     text-decoration: none;
+
     font-weight: bolder;
 
    

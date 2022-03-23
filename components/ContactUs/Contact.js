@@ -14,7 +14,7 @@ const Contact = ()=>{
           <div className="row">
             <div className="col-lg-8">
               <div className="contact-box p-4">
-                <h4 className="title">Contact Us</h4>
+                <h1 className={`title ${Styles["heading"]}`}>Contact Us</h1>
                 <form>
                   <div className="row">
                     <div className="col-lg-6">

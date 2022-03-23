@@ -8,9 +8,10 @@ return (
     <img src={"https://tekmentors.s3.ap-south-1.amazonaws.com/blogs/bg10.jpg"} alt="Stack Of Books Pic"/>
     </div>
     <div className={Styles.content}>
-    <h3>TEKMentors Blog</h3>
-    <h5>Presented By TEKmentors</h5>
-    
+    <h1>TEKMentors Blog</h1>
+
+
+    <h3>Presented By TEKmentors</h3>
     <Link href="#blog-section">
   
     <a >
