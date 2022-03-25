@@ -13,7 +13,7 @@ const Loader = ()=>{
 
     return(
         <div id="loader" >
-        <div className="loader" ><img src="https://tekmentors.com/wp-content/themes/tech-new/images/logo-n.png" alt="Loading "/></div>
+        <div className="loader" ><img src="/logos/logo.png" alt="Loading "/></div>
         </div>
     )
 }
